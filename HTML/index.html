@@ -27,6 +27,18 @@
             color: rgb(14, 16, 38);
             font-family: 'Montserrat', sans-serif;
         }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        .cards {
+            background-color: rgb(231, 234, 241);
+            padding: 10px;
+            margin: 10px;
+            border-radius:6px;
+        }
     </style>
 
     <title>HTML Necessaries</title>
@@ -34,31 +46,99 @@
 
 <body>
     <header>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
+        <!-- headinexample -->
+        <div class="cards">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div>
+        <div class="cards">
+            <p>This is a paragraph.</p>
+        </div>
 
-        <p>This is a paragraph.</p>
 
-        <b> - Bold text</b><br>
-        <strong> - Important text</strong><br>
-        <i>- Italic text</i><br>
-        <em> - Emphasized text</em><br>
-        <mark> - Marked text</mark><br>
-        <small> - Smaller text</small><br>
-        <del> - Deleted text</del><br>
-        <ins> - Inserted text</ins><br>
-        <sub> - Subscript text</sub><br>
-        <sup> - Superscript text</sup><br>
 
-        <a href="url">This is a Link</a><br>
+        <!-- formatting -->
+
+        <div class="cards">
+            <b> - Bold text</b><br>
+            <strong> - Important text</strong><br>
+            <i>- Italic text</i><br>
+            <em> - Emphasized text</em><br>
+            <mark> - Marked text</mark><br>
+            <small> - Smaller text</small><br>
+            <del> - Deleted text</del><br>
+            <ins> - Inserted text</ins><br>
+            <sub> - Subscript text</sub><br>
+            <sup> - Superscript text</sup><br>
+        </div>
+
+        <div class="cards">
+            <a href="url">This is a Link</a><br>
+        </div>
 
     </header>
     <nav></nav>
-    <main></main>
+    <main>
+
+        <!-- table example -->
+        <div class="cards">
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- unordered list -->
+        <div class="cards">
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+        </div>
+        <div class="cards">
+            <!-- ordered list -->
+            <ol>
+                <li>Chai</li>
+                <li>Tea</li>
+                <li>Nasha</li>
+            </ol>
+        </div>
+<div class="cards">
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- Mast drink</dd>
+        <dt>Milk</dt>
+        <dd>- Mast Power</dd>
+      </dl>
+</div>
+<div class="cards">
+    <h1>iframe</h1>
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" height="400" width="600" title="Iframe Example"
+    frameborder="0" border="0" cellspacing="0"
+        style="border-style: none; border-radius: 5px; width: 100%;"
+    >
+</iframe>
+
+</div>
+    </main>
     <footer></footer>
 </body>
 
