@@ -39,6 +39,14 @@
             margin: 10px;
             border-radius:6px;
         }
+        #fname,#lname,#button,#radio{
+            background-color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px;
+            width: 25%;
+            border-radius: 5px;
+            margin: 4px;
+        }
     </style>
 
     <title>HTML Necessaries</title>
@@ -139,7 +147,66 @@
 
 </div>
     </main>
-    <footer></footer>
+    <footer>
+
+        <div class="cards">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" required  maxlength="20"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+              </form>
+              
+        </div>
+
+        <div class="cards">
+            <button id ="button"type="button" style="background-color: rgb(0, 81, 255);color: white;">i am button</button>
+        </div>
+
+        <div class="cards">
+            <fieldset id="radio">
+                <label >
+                    <input   type="radio" value="1"> I am enough
+                </label>
+                <br>
+                <label >
+                    <input   type="radio" value="2"> I can do it
+                </label>
+                <br>
+                <label >
+                    <input   type="radio" value="3"> Finally its Done!
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="cards">
+            <fieldset id="radio">
+                <label >
+                    <input   type="range" value="1">Slider
+                </label>
+                <br>
+                <label >
+                    <input  type="date" value="2"> Date
+                </label>
+               
+            </fieldset>
+        </div>
+        <div class="cards">
+            <h1>
+                Image
+            </h1>
+            <img src="https://images.unsplash.com/photo-1682695794816-7b9da18ed470?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="alternatetext" width="400" style="border-radius: 10px;">
+        </div>
+
+        <div class="cards">
+            <h1>video</h1>
+            <video width="320" height="240" controls>
+                <source src="https://youtu.be/OdADCJcRgk4?si=NLLDZCqgBn8oayM7" type="video/mp4">
+              
+              </video>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
