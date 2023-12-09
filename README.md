@@ -2,7 +2,6 @@
 ## Contribute your learnings
 > [!NOTE]
 > managed by
-> [@Anisha Sharma](https://github.com/anishasharma-web)
 > [@Jatin Dayal](https://www.github.com/procojd)
 
 
